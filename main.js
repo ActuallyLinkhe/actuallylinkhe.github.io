@@ -11,7 +11,7 @@ if (sessionStorage.getItem('visit') === null) {
 
 function updateCounter(type) {
 
-  fetch('http://127.0.0.1:3002/api?'+type) // Dynamic request with URL parameter
+  fetch('https://lnksart-viewcounter.onrender.com:3002/api?'+type) // Dynamic request with URL parameter
     .then(res => res.json())
     .then(data => {
       pageviewsCount.textContent = data.pageviews; // Display pageviews to user
