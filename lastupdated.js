@@ -65,7 +65,8 @@ function formatarData(valor) {
   }
 
   // Formatando a string
-  return "Last Updated: " + mes + " " + dia + ", " + partes[1] + " - " + hora + ":" + partes[5] + manhanoite +" BRT";
+  // return "Last Updated: " + mes + " " + dia + ", " + partes[1] + " - " + hora + ":" + partes[5] + manhanoite +" BRT";
+  return "Last Updated: " + mes + " " + dia + ", " + partes[1] + " - " + hora + ":" + partes[5] +" BRT";
 }
 
 // Chamando a função lerArquivoJSON para ler o arquivo e encontrar a chave
