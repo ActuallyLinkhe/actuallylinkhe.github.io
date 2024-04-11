@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,400..900;1,400..900&display=swap');
+
+*{
+    font-family: 'Alegreya';
+    margin: 0;
+    padding: 0;
+    color: var(--white)
+}
+
+*:hover{
+    text-decoration: none;
+}
+
+:root{
+    --darkgrey: #1f1f1f;
+    --darkergrey: #181818;
+    --white: #f0f8ff;
+    --yellow: #FBFF24;
+    --red: #FF2424;
+}
+
+body{
+    background-color: var(--darkgrey);
+    height: 100vh;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+}
+
+section{
+    padding: .8rem;
+}
+
+.home{
+    display: flex;
+    flex-direction: row;
+    background-color: var(--darkergrey);
+    justify-content: center;
+    align-content: center;
+}
+
+.homebs{
+    display: flexbox;
+    width: 200px;
+    margin: 25px;
+}
+
+.linklist{
+    text-align: right;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+}
+
+.basicinfo{
+    display: flex;
+    align-items: center;
+}
+
+.box-main-icon{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}   
+
+.main-icon{
+    width: 200px;
+    border-radius: 10%;
+}
+
+h1,h2,h3,h4{
+    font-size: 25px;
+}
+
+h3{
+    color: var(--yellow);
+}
+
+h4{
+    color: var(--red);
+}
+
+.hiimlinkhe{
+    display: flex;
+    max-width: 100%;
+    gap: 2rem;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    padding-bottom: 0px;
+}
+
+.about{
+    display: flex;
+    max-width: 100%;
+    gap: 2rem;
+    align-items: center;
+    align-content: center;
+    justify-content: space-between;
+    padding-top: 0px;
+}
+
+.about > div{
+    max-width: 33%;
+}
+
+.rightside{
+    text-align: right;
+}
+
+.links{
+    display: flex;
+    max-width: 100%;
+    gap: 2rem;
+    align-items: center;
+    background-color: var(--darkergrey);
+}
+
+.musicbs{
+    width: 30%;
+}
+
+.otherlinks{
+    display: flexbox;
+    width: 70%;
+}
+
+
+
+.lines{
+    display: flex;
+    flex-direction: column;
+}
+
+.middleline{
+    align-items: center;
+    padding-left: 120px;
+}
+
+.thirdline{
+    align-items: flex-end;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding: 1rem;
+    text-align: center;
+    flex-direction: column;
+    /* background-color: var(--darkergrey); */
+}
+
+.viewcount{
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    text-align: center;
+}
+
+
+.linkhelanicore{
+    letter-spacing: 2px;
+}
+
+.dniiii{
+    text-align: right;
+}
