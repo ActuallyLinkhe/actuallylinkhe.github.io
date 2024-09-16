@@ -7,7 +7,7 @@ function getcss(cssfile){
 }
 
 if(screen.width <= '700') {
-    getcss('assets/styles/mobile.css')
+    getcss('assets/main/styles/mobile.css')
 } else {
-    getcss('assets/styles/desktop.css')
+    getcss('assets/main/styles/desktop.css')
 }
