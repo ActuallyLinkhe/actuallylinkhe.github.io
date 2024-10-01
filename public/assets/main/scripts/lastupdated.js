@@ -70,7 +70,7 @@ function formatarData(valor) {
 }
 
 // Chamando a função lerArquivoJSON para ler o arquivo e encontrar a chave
-lerArquivoJSON('https://api.github.com/repos/ActuallyLinkhe/lnkstudiosart/commits', function (resposta) {
+lerArquivoJSON('https://api.github.com/ActuallyLinkhe/actuallylinkhe.github.io/commits', function (resposta) {
   var json = JSON.parse(resposta);
   var chave = 'date';
   var resultado = encontrarChave(json, chave);
