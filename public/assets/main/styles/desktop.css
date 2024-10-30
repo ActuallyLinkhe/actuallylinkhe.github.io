@@ -4,7 +4,8 @@
     font-family: 'Alegreya';
     margin: 0;
     padding: 0;
-    color: var(--white)
+    color: var(--white);
+    font-size: 2.23vh;
 }
 
 *:hover{
@@ -16,156 +17,103 @@
     --darkergrey: #181818;
     --white: #f0f8ff;
     --yellow: #FBFF24;
-    --red: #FF2424;
+    --red: #ff5454;
+    --purple: #9488ba;
+    --pink: #f384dd;
 }
 
-body{
-    background-color: var(--darkgrey);
-    height: 100vh;
+.pink{
+    color: var(--pink);
 }
 
-main{
-    display: flex;
-    flex-direction: column;
-}
-
-section{
-    padding: .8rem;
-}
-
-.home{
-    display: flex;
-    flex-direction: row;
-    background-color: var(--darkergrey);
-    justify-content: center;
-    align-content: center;
-}
-
-.homebs{
-    display: flexbox;
-    width: 200px;
-    margin: 25px;
-}
-
-.linklist{
-    text-align: right;
-    display: flex;
-    align-items: center;
-    justify-content: right;
-}
-
-.basicinfo{
-    display: flex;
-    align-items: center;
-}
-
-.box-main-icon{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 1rem;
-}   
-
-.main-icon{
-    width: 200px;
-    border-radius: 10%;
-}
-
-h1,h2,h3,h4{
-    font-size: 25px;
-}
-
-h3{
+.yellow{
     color: var(--yellow);
 }
 
-h4{
+.purple{
+    color: var(--purple);
+}
+
+.red{
     color: var(--red);
 }
 
-.hiimlinkhe{
+.darkergrey{
+    color: var(--darkergrey);
+}
+
+html{
+    height: 100%;
+    background-color: var(--darkgrey);
+}
+
+body{
     display: flex;
-    max-width: 100%;
-    gap: 2rem;
-    align-items: center;
-    justify-content: center;
-    font-size: 30px;
-    padding-bottom: 0px;
+    flex-direction: row;
+    padding: .8rem;
+    height: 96%;
+    
 }
 
-.about{
-    display: flex;
-    max-width: 100%;
-    gap: 2rem;
-    align-items: center;
-    align-content: center;
-    justify-content: space-between;
-    padding-top: 0px;
-}
-
-.about > div{
-    max-width: 33%;
-}
-
-.rightside{
-    text-align: right;
-}
-
-.links{
-    display: flex;
-    max-width: 100%;
-    gap: 2rem;
-    align-items: center;
+section{
     background-color: var(--darkergrey);
-}
-
-.musicbs{
-    width: 30%;
-}
-
-.otherlinks{
-    display: flexbox;
-    width: 70%;
-}
-
-
-
-.lines{
+    padding: .8rem;
+    margin: .8rem;
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
 }
 
-.middleline{
+.iconbox{
+    display: flex;
+    flex-direction: column;
     align-items: center;
-    padding-left: 120px;
 }
 
-.thirdline{
-    align-items: flex-end;
+.titless{
+    font-size: 3vh;
 }
 
-footer{
+.titlesspurple{
+    color: var(--purple);
+    font-size: 3vh;
+}
+
+.titlessyellow{
+    color: var(--yellow);
+    font-size: 3vh;
+}
+
+.titlessred{
+    color: var(--red);
+    font-size: 3vh;
+}
+
+.titlesspink{
+    color: var(--pink);
+    font-size: 3vh;
+}
+
+.iconbox>p{
+    margin-top: .4rem;
+}
+
+.abt,.intro,.main-icon,.regular,.lessregular,.bull,.msc,.latestrelease,.musique{
+    width: 36vh;
+}
+
+.linkss{
+    font-size: 2.3vh;
+}
+
+.latestrelease{
+    padding-top: 1VH;
+}
+
+.releasebox{
     display: flex;
-    justify-content: center;
-    align-content: center;
-    padding: 1rem;
-    text-align: center;
     flex-direction: column;
-    /* background-color: var(--darkergrey); */
+    align-items: center;
 }
 
-.viewcount{
-    display: flex;
-    justify-content: center;
-    gap: 1rem;
-    text-align: center;
-}
-
-
-.linkhelanicore{
-    letter-spacing: 2px;
-}
-
-.dniiii{
-    text-align: right;
-}
+/* .gaysex{ display: flex; flex-direction: column; align-items: center; justify-content: center; } #saygex{ width: 36vh; } */
