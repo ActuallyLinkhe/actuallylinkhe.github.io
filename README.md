@@ -5,4 +5,4 @@ my first genuine html+css project
 
 if broken head to https://actuallylinkhe.neocities.org/
 
-i don't have money to renew the domain rn so the lnkstudios.art link is broken, use neocities or github.io
+i probably won't ever renew lnkstudios.art, so link is broken. use neocities or github.io
