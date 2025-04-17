@@ -61,7 +61,18 @@ section{
     margin: .8rem;
     display: flex;
     flex-direction: column;
+    overflow-y: scroll;
+}
+
+.socials{
+    scrollbar-width: thin;
+    scrollbar-color: #727273 var(--darkergrey);
+}
+
+.bio,.about,.music{
     justify-content: space-between;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
 }
 
 .iconbox{
