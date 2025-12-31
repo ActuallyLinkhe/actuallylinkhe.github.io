@@ -56,6 +56,35 @@ function fetchSidebar(){
   })
 }
 
+document.addEventListener("DOMContentLoaded", () => {
+    const BIRTH_DATE = "2005-01-15";
+
+    const age = calculateAge(BIRTH_DATE);
+
+    // Update element on the page
+    const ageElement = document.getElementById("age");
+    if (ageElement) {
+        ageElement.textContent = age;
+    }
+});
+
+function calculateAge(birthDate) {
+    const today = new Date();
+    const dob = new Date(birthDate);
+
+    let age = today.getFullYear() - dob.getFullYear();
+    const monthDiff = today.getMonth() - dob.getMonth();
+
+    if (
+        monthDiff < 0 ||
+        (monthDiff === 0 && today.getDate() < dob.getDate())
+    ) {
+        age--;
+    }
+
+    return age;
+}
+
 //RUN
 document.addEventListener('DOMContentLoaded', (event) => {
   isMobile = screenSize <= mobileSize;
