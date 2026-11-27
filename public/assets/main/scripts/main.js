@@ -50,6 +50,12 @@ function fetchSidebar(){
   .then((html) => {
     const sidebar = document.getElementById('sidebar');
     sidebar.innerHTML = html;
+    const current = location.pathname.split('/').pop() || 'index.html';
+    sidebar.querySelectorAll('a').forEach(link => {
+      if (link.origin === location.origin && link.pathname.split('/').pop() === current) {
+        link.setAttribute('aria-current', 'page');
+      }
+    });
   })
   .catch(error => {
     console.error('Failed to fetch element: ', error)
